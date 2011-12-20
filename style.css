@@ -1,0 +1,235 @@
+body .content {
+  top: 0;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  font-family: kaffeesatz, "Yanone Kaffeesatz", "Gill Sans", Helvetica, Arial, sans-serif;
+  font-size: 40px; }
+  body .content h1 {
+    font-size: 170px;
+    font-weight: 700;
+    margin-left: 40px;
+    margin-right: 40px; }
+  body .content pre {
+    font-size: 70%; }
+  body .content li {
+    font-size: 60px; }
+  body .content.title-slide {
+    background: #f8ca00;
+    color: #490a3d; }
+  body .content.glenn {
+    background: #f8ca00;
+    color: #bd1550; }
+    body .content.glenn h1 {
+      font-size: 168px;
+      color: #490a3d; }
+    body .content.glenn h2 {
+      font-size: 96px; }
+    body .content.glenn li {
+      font-size: 48px; }
+  body .content.whats-in-store {
+    background: #8a9b0f;
+    color: white; }
+    body .content.whats-in-store h1 {
+      font-size: 120px;
+      margin-bottom: 0.1em; }
+    body .content.whats-in-store li {
+      font-size: 80px; }
+  body .content.safe-harbor h1 {
+    font-size: 120px;
+    text-align: left;
+    margin: 0 40px; }
+  body .content.safe-harbor p {
+    text-align: left;
+    margin: 20px 40px;
+    font-size: 24px; }
+  body .content.what-is-a-facebook-app {
+    background: #e97f02;
+    color: white; }
+    body .content.what-is-a-facebook-app h1 {
+      text-align: right;
+      margin: 40px 40px;
+      font-size: 192px; }
+  body .content.app-type {
+    background: #f8ca00;
+    color: #bd1550; }
+  body .content.screenshot p {
+    padding: 0;
+    margin: 0; }
+  body .content.urls-urls-urls {
+    background: #490a3d;
+    color: white; }
+  body .content.just-web-apps h1 {
+    text-align: left;
+    margin-left: 40px;
+    margin-right: 40px; }
+  body .content.and-you-already-know h1 {
+    font-size: 168px;
+    text-align: right;
+    margin-left: 40px;
+    margin-right: 40px; }
+  body .content.fin {
+    background: black;
+    color: white; }
+    body .content.fin h1 {
+      font-size: 360px; }
+  body .content.what-graph {
+    background: #8a9b0f;
+    color: white; }
+  body .content.line-chart p, body .content.bar-chart p {
+    margin: 40px 0 0; }
+  body .content.graph h1 {
+    font-size: 192px;
+    margin-bottom: 40px; }
+  body .content.graph p {
+    margin: 40px 0 0 0; }
+  body .content.social-graph {
+    background: #bd1550;
+    color: white; }
+  body .content.twitter h1 {
+    color: #490a3d;
+    font-size: 192px;
+    margin-bottom: 20px; }
+  body .content.twitter p {
+    margin-top: 20px; }
+  body .content.facebook h1 {
+    color: #490a3d;
+    font-size: 192px;
+    margin-bottom: 20px;
+    margin-top: 20px; }
+  body .content.facebook p {
+    margin-top: 20px; }
+  body .content.the-open-graph {
+    background: #f8ca00; }
+    body .content.the-open-graph h1 {
+      font-size: 288px;
+      margin: 100px 0 0; }
+  body .content.the-open-graph-steps {
+    background: #f8ca00; }
+    body .content.the-open-graph-steps h1 {
+      font-size: 144px;
+      margin: 100px 0 50px; }
+  body .content.creating-and-deploying {
+    background: #490a3d;
+    color: white; }
+    body .content.creating-and-deploying h1 {
+      text-align: right;
+      font-size: 192px; }
+  body .content.its-easy {
+    background: #8a9b0f;
+    color: #fff; }
+    body .content.its-easy h1 {
+      margin-top: 40px;
+      font-size: 192px; }
+    body .content.its-easy li {
+      font-size: 60px; }
+  body .content.something-real {
+    background: #bd1550;
+    color: white; }
+    body .content.something-real h1 {
+      font-size: 192px;
+      text-align: left; }
+  body .content.bricks-mortar {
+    background: #e97f02;
+    color: white; }
+    body .content.bricks-mortar h1 {
+      font-size: 108px; }
+  body .content.heres-one {
+    background: #490a3d;
+    color: #fff; }
+    body .content.heres-one h1 {
+      font-size: 216px;
+      text-align: right;
+      margin-top: 60px; }
+  body .content.embrace {
+    background: #8a9b0f;
+    color: #fff; }
+    body .content.embrace h1 {
+      text-align: left; }
+  body .content.database {
+    background: #490a3d;
+    color: #fff; }
+    body .content.database h1 {
+      margin-top: 250px;
+      text-align: right; }
+  body .content.open-graph {
+    background: #f8ca00; }
+    body .content.open-graph h1 {
+      text-align: left;
+      margin-top: 40px; }
+  body .content.over-share {
+    background: black;
+    color: #f8ca00; }
+    body .content.over-share h1 {
+      text-align: right;
+      margin-top: 240px; }
+  body .content.examples {
+    color: #bd1550; }
+    body .content.examples h1 {
+      font-size: 336px; }
+    body .content.examples p {
+      margin: 80px 0 0; }
+  body .content.wait-what {
+    color: #490a3d;
+    background: white; }
+    body .content.wait-what h1 {
+      font-size: 120px; }
+  body .content.introducing-heroku {
+    background: #490a3d;
+    color: #fff; }
+    body .content.introducing-heroku h1 {
+      font-size: 160px;
+      margin-top: 100px; }
+  body .content.how-it-works {
+    	color: #C6C2EF;
+  	background: url(http://assets.heroku.com.s3.amazonaws.com/showoff/background-seigaiha.png), -moz-linear-gradient(90deg, #1b1b24 0%, hsl(240, 14%, 6%) 100%);
+  	background: url(http://assets.heroku.com.s3.amazonaws.com/showoff/background-seigaiha.png), -webkit-gradient(linear, left bottom, left top, from(#1b1b24), to(hsl(240, 14%, 6%)));      
+	font-family: "CorbelRegular", "Helvetica Neue", Helvetica, sans-serif;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.42);
+  }
+  body .content.how-it-works h1 {
+      font-size:110px;
+  	color: #C6C2EF;
+  }
+  body .content.how-it-works img {
+      border: 0px;
+  }
+  body .content.more-awesome {
+    background: #490a3d;
+    color: #fff; }
+    body .content.more-awesome h1 {
+      font-size: 160px;
+      margin-top: 40px;
+      text-align: right; }
+  body .content.forget-servers h1, body .content.run-anything h1, body .content.see-everything h1, body .content.trust-manage h1, body .content.control-surface h1 {
+    font-size: 110px;
+    margin-top: 40px;
+    margin-bottom: 40px; }
+  body .content.forget-servers h2, body .content.run-anything h2, body .content.see-everything h2, body .content.trust-manage h2, body .content.control-surface h2 {
+    font-size: 72px; }
+  body .content.release pre code.result, body .content.wide-logs pre code.result {
+    font-size: 16px; }
+  body .content.logging h3 {
+    font-size: 48px; }
+  body .content.one-last-demo {
+    background: #490a3d;
+    color: white; }
+    body .content.one-last-demo h1 {
+      margin-top: 200px;
+      font-size: 160px;
+      text-align: left; }
+  body .content.wrapup {
+    background: #e97f02;
+    color: white; }
+    body .content.wrapup h1 {
+      font-size: 96px;
+      margin-top: 40px; }
+  body .content.hiring {
+    background: #8a9b0f;
+    color: white; }
+  body .content.questions {
+    background: #bd1550;
+    color: white; }
+    body .content.questions h1 {
+      text-align: right;
+      margin-top: 40px; }

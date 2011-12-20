@@ -1,0 +1,383 @@
+$color1: #490A3D;
+$color2: #BD1550;
+$color3: #E97F02;
+$color4: #F8CA00;
+$color5: #8A9B0F;
+$base-size: 40px;
+$base-header: 240px;
+
+body {
+
+	.content {
+		top: 0;
+		position: absolute;
+		height: 100%;
+		width: 100%;
+		font-family: kaffeesatz, "Yanone Kaffeesatz", "Gill Sans", Helvetica, Arial, sans-serif;
+		font-size: $base-size;
+
+		h1 {
+			font-size: $base-header;
+			font-weight: 700;
+			margin-left: 40px;
+			margin-right: 40px;
+		}
+
+		pre {
+			font-size: 70%;
+			code {
+			}
+		}
+
+		li {
+			font-size: $base-size * 1.5;
+		}
+
+		&.title-slide {
+			background: $color4;
+			color: $color1;
+		}
+
+		&.glenn {
+			background: $color4;
+			color: $color2;
+
+			h1 {
+				font-size: $base-header * .7;
+				color: $color1;
+			}
+			h2 {
+				font-size: $base-header *.4;
+			}
+
+			li {
+				font-size: $base-size * 1.2;
+			}
+		}
+
+		&.whats-in-store {
+			background: $color5;
+			color: white;
+			h1 {
+				font-size: $base-header * .5;
+				margin-bottom: 0.1em;
+			}
+			li {
+				font-size: $base-size * 2.5;
+			}
+		}
+		&.safe-harbor {
+			h1 {
+				font-size: $base-header * .5;
+				text-align: left;
+				margin: 0 40px;
+			}
+			p {
+				text-align: left;
+				margin: 20px 40px;
+				font-size: $base-size * 0.6;
+			}
+		}
+
+		&.what-is-a-facebook-app {
+			background: $color3;
+			color: white;
+			h1 {
+				text-align: right;
+				margin: 40px 40px;
+				font-size: $base-header *.8;
+			}
+		}
+
+		&.app-type {
+			background: $color4;
+			color: $color2;
+		}
+
+		&.screenshot {
+			p {
+				padding: 0;
+				margin: 0
+			}
+		}
+
+		&.urls-urls-urls {
+			background: $color1;
+			color: white;
+		}
+
+		&.just-web-apps {
+			h1 {
+				text-align: left;
+				margin-left: 40px;
+				margin-right: 40px;
+			}
+		}
+
+		&.and-you-already-know {
+			h1 {
+				font-size: $base-header * .7;
+				text-align: right;
+				margin-left: 40px;
+				margin-right: 40px;
+			}
+		}
+
+		&.fin {
+			background: black;
+			color: white;
+			h1 {
+				font-size: $base-header * 1.5;
+			}
+		}
+
+		&.what-graph {
+			background: $color5;
+			color: white;
+		}
+
+		&.line-chart p, &.bar-chart p {
+			margin: 40px 0 0;
+		}
+
+		&.graph {
+			h1 {
+				font-size: $base-header * .8;
+				margin-bottom: 40px;
+			}
+
+			p {
+				margin: 40px 0 0 0;
+			}
+		}
+
+		&.social-graph {
+			background: $color2;
+			color: white;
+		}
+
+		&.twitter {
+			h1 {
+				color: $color1;
+				font-size: $base-header * .8;
+				margin-bottom: 20px;
+			}
+			p {
+				margin-top: 20px;
+			}
+		}
+
+		&.facebook {
+			h1 {
+				color: $color1;
+				font-size: $base-header * .8;
+				margin-bottom: 20px;
+				margin-top: 20px;
+			}
+			p {
+				margin-top: 20px;
+			}
+		}
+
+		&.the-open-graph {
+			background: $color4;
+			h1 {
+				font-size: $base-header * 1.2;
+				margin: 100px 0 0;
+			}
+		}
+
+		&.the-open-graph-steps {
+			background: $color4;
+			h1 {
+				font-size: $base-header * 0.6;
+				margin: 100px 0 50px;
+			}
+		}
+
+		&.creating-and-deploying {
+			background: $color1;
+			color: white;
+			h1 {
+				text-align: right;
+				font-size: $base-header * .8;
+			}
+		}
+
+		&.its-easy {
+			background: $color5;
+			color: #fff;
+
+			h1 {
+				margin-top: 40px;
+				font-size: $base-header * .8;
+			}
+
+			li {
+				font-size: $base-size * 1.5;
+			}
+		}
+
+		&.something-real {
+			background: $color2;
+			color: white;
+			h1 {
+				font-size: $base-header * .8;
+				text-align: left;
+			}
+		}
+
+		&.bricks-mortar {
+			background: $color3;
+			color: white;
+			h1 {
+				font-size: $base-header * .45;
+			}
+		}
+
+		&.heres-one {
+			background: $color1;
+			color: #fff;
+
+			h1 {
+				font-size: $base-header * .9;
+				text-align: right;
+				margin-top: 60px;
+			}
+		}
+
+		&.embrace {
+			background: $color5;
+			color: #fff;
+			h1 {
+				text-align: left;
+			}
+		}
+
+		&.database {
+			background: $color1;
+			color: #fff;
+			h1 {
+				margin-top: 250px;
+				text-align: right;
+			}
+		}
+
+		&.open-graph {
+			background: $color4;
+			h1 {
+				text-align: left;
+				margin-top: 40px;
+			}
+		}
+
+		&.over-share {
+			background: black;
+			color: $color4;
+
+			h1 {
+				text-align: right;
+				margin-top: 240px;
+			}
+		}
+
+		&.examples {
+			color: $color2;
+			h1 {
+				font-size: $base-header * 1.4;
+			}
+			p {
+				margin: 80px 0 0;
+			}
+		}
+
+		&.wait-what {
+			color: $color1;
+			background: white;
+			 h1 {
+				 font-size: $base-header * 0.5;
+			 }
+		}
+
+		&.introducing-heroku {
+			background: $color1;
+			color: #fff;
+			h1 {
+				font-size: $base-header * 1.2;
+				margin-top: 100px;
+			}
+		}
+
+		&.more-awesome {
+			background: $color1;
+			color: #fff;
+			h1 {
+				font-size: $base-header * .8;
+				margin-top: 40px;
+				text-align: right;
+			}
+		}
+
+		&.forget-servers, &.run-anything, &.see-everything, &.trust-manage, &.control-surface {
+			h1 {
+				font-size: $base-header * .6;
+				margin-top: 40px;
+				margin-bottom: 40px;
+			}
+
+			h2 {
+				font-size: $base-header * .3;
+			}
+		}
+
+		&.release, &.wide-logs {
+			pre {
+				code.result {
+					font-size: $base-size * .4;
+				}
+			}
+		}
+
+		&.logging {
+			h3 {
+				font-size: $base-header * .2;
+			}
+		}
+
+		&.one-last-demo {
+			background: $color1;
+			color: white;
+			h1 {
+				margin-top: 200px;
+				font-size: $base-header * 1.1;
+				text-align: left;
+			}
+		}
+
+		&.wrapup {
+			background: $color3;
+			color: white;
+			h1 {
+				font-size: $base-header *.4;
+				margin-top: 40px;
+			}
+		}
+
+		&.hiring {
+			background: $color5;
+			color: white;
+		}
+
+		&.questions {
+			background: $color2;
+			color: white;
+			h1 {
+				text-align: right;
+				margin-top: 40px;
+			}
+		}
+
+
+	}
+
+}
